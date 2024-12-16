@@ -15,8 +15,7 @@ use crate::{AppState, GameState};
 use bevy::{
     prelude::*,
     time::common_conditions::on_timer,
-    render::view::screenshot::{save_to_disk, Capturing, Screenshot},
-    window::PrimaryWindow,
+    render::view::screenshot::{save_to_disk, Screenshot}
 };
 
 use json_writer::to_json_string;
